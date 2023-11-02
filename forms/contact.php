@@ -25,7 +25,7 @@ $mail->Username = "portfolio.contact.query@gmail.com";
 $mail->Password = "znjkkowissujcfvs";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("debapriya.ghosh2605@gmail.com", "Debapriya");
+$mail->addAddress("hrishitdas2000@gmail.com", "Debapriya");
 
 $mail->Subject = $subject;
 $mail->Body = $message;
