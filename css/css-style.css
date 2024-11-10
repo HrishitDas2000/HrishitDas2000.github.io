@@ -395,8 +395,8 @@ p {
 }
 
 #projects .project-vid {
-	flex-basis: 100%;
-	height: 400px;
+	flex-basis: 50%;
+
 	overflow: hidden;
 	position: relative;
 }
