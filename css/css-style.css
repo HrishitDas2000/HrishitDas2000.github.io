@@ -393,6 +393,21 @@ p {
 #projects .project-img img {
 	transition: .3s ease transform;
 }
+
+#projects .project-vid {
+	flex-basis: 50%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-vid:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
@@ -637,7 +652,7 @@ p {
 		height: 100px;
 		width: 100px;
 	}
-	#contact .contact-item .icon img {
+	#contact .contact-item .icon img{
 		object-fit: contain;
 	}
 	#contact .contact-item .contact-info {
